@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKP Indo Jaya Kebumen - Lembaga Kursus & Pelatihan</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#16a34a', /* Hijau Logo */
+                        secondary: '#15803d',
+                        accent: '#fbbf24', /* Kuning Terang */
+                        dark: '#1e293b',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-700 font-sans">
+
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            
+            <div class="flex items-center gap-10">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="img/Logo Indo Jaya Kebumen.png" alt="Logo LKP Indo Jaya" class="h-12 w-auto object-contain">
+                    <div class="hidden sm:block">
+                        <h1 class="text-lg font-heading font-bold text-primary leading-tight">INDO JAYA</h1>
+                        <p class="text-[10px] text-gray-500 tracking-widest font-bold">KEBUMEN</p>
+                    </div>
+                </a>
+
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="index.html" class="text-gray-800 hover:text-primary font-medium text-sm transition border-b-2 border-primary">Beranda</a>
+                    <a href="program.html" class="text-gray-600 hover:text-primary font-medium text-sm transition hover:border-b-2 hover:border-primary">Program Kursus</a>
+                    <a href="pelatihan-kka.html" class="text-gray-600 hover:text-primary font-medium text-sm transition hover:border-b-2 hover:border-primary">Pelatihan KKA</a>
+                    <a href="kontak.html" class="text-gray-600 hover:text-primary font-medium text-sm transition hover:border-b-2 hover:border-primary">Kontak Kami</a>
+                </div>
+            </div>
+
+            <div class="hidden md:block">
+                <a href="https://wa.me/6285726818142" class="relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white transition-all duration-300 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full group hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:ring-4 hover:ring-yellow-300 hover:shadow-xl hover:-translate-y-1">
+                    <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                    <span class="relative flex items-center gap-2">
+                        Daftar Sekarang <i class="fas fa-paper-plane text-sm"></i>
+                    </span>
+                </a>
+            </div>
+            
+            <button class="md:hidden text-2xl text-primary">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80" alt="Suasana Belajar" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-green-900/95 to-green-800/80"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center md:text-left">
+            <div class="md:w-2/3">
+                <span class="inline-block py-1 px-3 rounded-full bg-yellow-500 text-white text-xs font-bold mb-4 shadow-lg">
+                    🚀 Lembaga Kursus & Pelatihan Terpercaya
+                </span>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+                    Tingkatkan Skill, <br> Buka Peluang Karir.
+                </h1>
+                <p class="text-gray-100 text-lg mb-8 leading-relaxed max-w-lg">
+                    Kami membekali Anda dengan keterampilan praktis yang relevan untuk dunia kerja dan bisnis. Mulai perjalanan sukses Anda bersama kami hari ini!
+                </p>
+                <div class="flex flex-col md:flex-row gap-4">
+                    <a href="#program" class="bg-white text-primary hover:bg-gray-100 py-3 px-8 rounded-lg font-bold text-center transition shadow-lg">
+                        Lihat Program
+                    </a>
+                    <a href="#visi-misi" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary py-3 px-8 rounded-lg font-bold text-center transition">
+                        Tentang Kami
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-heading font-bold text-primary mb-4">Mengapa Indo Jaya?</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100 text-center group hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-green-100 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-dark">Sertifikat Resmi</h3>
+                    <p class="text-sm text-gray-500">Bukti kompetensi yang valid untuk melamar pekerjaan.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100 text-center group hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-green-100 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-dark">Instruktur Ahli</h3>
+                    <p class="text-sm text-gray-500">Belajar langsung dari praktisi yang berpengalaman.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-xl border border-gray-100 text-center group hover:shadow-lg transition">
+                    <div class="w-14 h-14 bg-green-100 text-primary rounded-full flex items-center justify-center text-2xl mx-auto mb-4 group-hover:bg-primary group-hover:text-white transition">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-dark">Persiapan Dunia Kerja</h3>
+                    <p class="text-sm text-gray-500">Kurikulum sesuai kebutuhan industri agar siap kerja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="visi-misi" class="py-16 bg-green-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-heading font-bold text-primary">Visi & Misi</h2>
+                <div class="w-20 h-1 bg-accent mx-auto mt-2 rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="bg-white p-8 rounded-2xl shadow-lg text-center border-t-4 border-primary">
+                    <div class="w-16 h-16 bg-primary/10 text-primary rounded-full flex items-center justify-center text-3xl mx-auto mb-6">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-dark mb-4">VISI</h3>
+                    <p class="text-lg text-gray-600 font-medium italic">
+                        "Meningkatkan intelegensi dan life skill peserta didik."
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-accent">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 bg-accent/10 text-accent rounded-full flex items-center justify-center text-xl">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-dark">MISI</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-600 text-sm leading-relaxed">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-primary mt-1"></i>
+                            <span>Menyelenggarakan pembelajaran dengan pendekatan multiple intelegensi untuk hasil yang optimal.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-primary mt-1"></i>
+                            <span>Memberikan motivasi berkelanjutan demi menciptakan peserta didik yang tidak hanya terampil, tapi juga berkualitas.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-check-circle text-primary mt-1"></i>
+                            <span>Membangun dan menjaga kerja sama erat dengan Dunia Usaha dan Industri, khususnya yang relevan dengan bidang pelatihan kami, untuk memastikan relevansi kurikulum dan peluang penempatan kerja.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-heading font-bold text-primary mb-2">Program Kursus</h2>
+                <p class="text-gray-500">Tingkatkan keahlianmu dengan 6 pilihan program unggulan kami.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 group">
+                    <div class="h-48 overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1626785774573-4b7993143a23?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Desain Grafis" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Desain Grafis</h3>
+                        <p class="text-gray-500 text-sm">CorelDraw & Photoshop. Membuat logo, brosur, banner, dan desain media sosial.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 group">
+                    <div class="h-48 overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Pemrograman" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Pemrograman</h3>
+                        <p class="text-gray-500 text-sm">Dasar logika coding, pembuatan website, dan pengembangan aplikasi sederhana.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 group">
+                    <div class="h-48 overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Perakitan" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Perakitan Komputer</h3>
+                        <p class="text-gray-500 text-sm">Teknik merakit PC, instalasi sistem operasi, troubleshooting, dan perbaikan hardware.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 group">
+                    <div class="h-48 overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bbc7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Jaringan" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Jaringan (TKJ)</h3>
+                        <p class="text-gray-500 text-sm">Instalasi LAN/WiFi, konfigurasi Mikrotik, dan manajemen jaringan komputer.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 group">
+                    <div class="h-48 overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Office" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Aplikasi Perkantoran</h3>
+                        <p class="text-gray-500 text-sm">Microsoft Word, Excel, dan PowerPoint untuk administrasi perkantoran.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-xl overflow-hidden hover:shadow-xl transition duration-300 group">
+                    <div class="h-48 overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1622675235450-4822830df2b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sablon" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-dark mb-2">Sablon</h3>
+                        <p class="text-gray-500 text-sm">Teknik sablon manual dan digital (DTF) pada media kaos dan kain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-heading font-bold text-primary mb-2">Galeri Kegiatan</h2>
+                <p class="text-gray-500">Dokumentasi aktivitas pelatihan dan kerjasama di LKP Indo Jaya.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Pelatihan Komputer</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b955?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Uji Kompetensi</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1577415124269-fc1140a69e91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Kunjungan Industri</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 4" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Diskusi Kelompok</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 5" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Meeting Instruktur</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 6" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Sertifikasi</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 7" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Kelas Coding</span>
+                    </div>
+                </div>
+                <div class="relative group overflow-hidden rounded-lg aspect-square">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kegiatan 8" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition flex items-end p-4">
+                        <span class="text-white text-xs font-bold">Graduation</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8">
+                <a href="galeri.html" class="inline-block border border-primary text-primary hover:bg-primary hover:text-white px-6 py-2 rounded-full transition text-sm font-semibold">
+                    Lihat Selengkapnya <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-gray-300 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xl font-bold text-white font-heading">LKP INDO JAYA</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-4 max-w-sm">
+                        Membangun generasi kompeten, kreatif, dan siap kerja. Bergabunglah bersama kami untuk masa depan yang lebih baik.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4">Menu Utama</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="hover:text-primary transition">Beranda</a></li>
+                        <li><a href="program.html" class="hover:text-primary transition">Program Kursus</a></li>
+                        <li><a href="pelatihan-kka.html" class="hover:text-primary transition">Pelatihan KKA</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-primary mt-1"></i>
+                            <span>Dk. Kalibalong RT.02 RW.02 Ds. Aditirto, Kec. Pejagoan, Kab. Kebumen.</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-primary text-lg"></i>
+                            <a href="https://wa.me/6285726818142" class="hover:text-white transition font-bold">0857-2681-8142</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 text-center text-sm">
+                <p>&copy; 2026 LKP Indo Jaya Kebumen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
