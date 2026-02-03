@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - LKP Indo Jaya Kebumen</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#16a34a',
+                        secondary: '#15803d',
+                        accent: '#fbbf24',
+                        dark: '#1e293b',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-700 font-sans antialiased">
+
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0 transition-all duration-300">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                
+                <div class="flex items-center gap-10">
+                    <a href="index.html" class="flex items-center gap-3">
+                        <img src="img/Logo Indo Jaya Kebumen.png" alt="Logo LKP Indo Jaya" class="h-12 w-auto object-contain">
+                        <div class="hidden sm:block">
+                            <h1 class="text-lg font-heading font-bold text-primary leading-tight">INDO JAYA</h1>
+                            <p class="text-[10px] text-gray-500 tracking-widest font-bold">KEBUMEN</p>
+                        </div>
+                    </a>
+
+                    <div class="hidden md:flex items-center space-x-6">
+                        <a href="index.html" class="text-gray-600 hover:text-primary font-medium text-sm transition hover:border-b-2 hover:border-primary">Beranda</a>
+                        <a href="program.html" class="text-gray-600 hover:text-primary font-medium text-sm transition hover:border-b-2 hover:border-primary">Program Kursus</a>
+                        <a href="kka.html" class="text-gray-600 hover:text-primary font-medium text-sm transition hover:border-b-2 hover:border-primary">Pelatihan KKA</a>
+                        <a href="tentangkami.html" class="text-gray-800 hover:text-primary font-medium text-sm transition border-b-2 border-primary">Tentang Kami</a>
+                    </div>
+                </div>
+
+                <div class="hidden md:block">
+                    <a href="https://wa.me/6285726818142" class="relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white transition-all duration-300 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full group hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:ring-4 hover:ring-yellow-300 hover:shadow-xl hover:-translate-y-1">
+                        <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span class="relative flex items-center gap-2">
+                            Daftar Sekarang <i class="fas fa-paper-plane text-sm"></i>
+                        </span>
+                    </a>
+                </div>
+                
+                <button id="mobile-menu-btn" class="md:hidden text-2xl text-primary focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-100">
+                <a href="index.html" class="block py-2 text-gray-600 hover:text-primary">Beranda</a>
+                <a href="program.html" class="block py-2 text-gray-600 hover:text-primary">Program Kursus</a>
+                <a href="kka.html" class="block py-2 text-gray-600 hover:text-primary">Pelatihan KKA</a>
+                <a href="tentangkami.html" class="block py-2 text-primary font-bold">Tentang Kami</a>
+                <a href="https://wa.me/6285726818142" class="block mt-2 text-center bg-accent text-white py-2 rounded-lg font-bold">Daftar Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b955?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Tentang Kami Background" class="w-full h-full object-cover">
+            
+            <div class="absolute inset-0 bg-gradient-to-r from-green-900/95 via-green-800/90 to-green-900/90"></div>
+            
+            <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white text-xs font-medium mb-8 backdrop-blur-sm animate-fade-in-down">
+                <a href="index.html" class="hover:text-accent transition duration-300">Beranda</a>
+                <span class="text-gray-400 text-[10px]"><i class="fas fa-chevron-right"></i></span>
+                <span class="text-accent">Tentang Kami</span>
+            </div>
+
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
+                Membangun Generasi <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-200">Kompeten & Berkarakter.</span>
+            </h1>
+            
+            <p class="text-gray-200 text-lg mb-10 leading-relaxed max-w-2xl mx-auto font-light">
+                Mengenal lebih dekat perjalanan, visi, dan dedikasi LKP Indo Jaya Kebumen dalam mencetak sumber daya manusia unggul yang siap bersaing.
+            </p>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-heading font-bold text-primary mb-6">Profil LKP Indo Jaya Kebumen</h2>
+                    <div class="space-y-4 text-gray-600 leading-relaxed text-justify">
+                        <p>
+                            Lembaga Kursus dan Pelatihan (LKP) Indo Jaya Kebumen adalah institusi pendidikan non-formal yang berdedikasi untuk meningkatkan kualitas sumber daya manusia dengan bidang/program keterampilan berbasis teknologi informasi dan komunikasi yakni <strong>"KOMPUTER DAN BAHASA ASING"</strong>.
+                        </p>
+                        <p>
+                            Berdiri sejak 5 Mei 2013, legalitas lembaga terbaru tertuang pada Akta Notaris dengan No. 32/-IX.02.02/2013, tanggal 26 Juli 2013. Ijin Operasional LKP Indo Jaya Kebumen dikeluarkan oleh Dinas Pendidikan Pemuda dan Olahraga Kab. Kebumen, berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.
+                        </p>
+                        <p>
+                            Kami berkomitmen untuk mencetak individu yang kompeten dan siap bersaing di dunia kerja. Dipimpin oleh <strong>Bapak Yuwono Wisudo Pramono, S.Pd</strong>, LKP Indo Jaya Kebumen secara konsisten mengembangkan kurikulum dan metode pembelajaran yang relevan dengan kebutuhan industri.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white max-w-xs w-full">
+                        <img src="img/Logo Indo Jaya Kebumen.png" alt="Logo LKP Indo Jaya" class="w-full h-auto object-cover transform hover:scale-105 transition duration-700 bg-gray-50">
+                        <div class="absolute bottom-0 left-0 bg-primary px-6 py-2 rounded-tr-xl">
+                            <span class="text-white font-bold text-sm">Est. 2013</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-green-50 border-y border-green-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="w-16 h-16 bg-white text-accent rounded-full flex items-center justify-center text-3xl mx-auto mb-6 shadow-md">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-heading font-bold text-dark mb-6">Komitmen terhadap Inovasi dan Kualitas</h2>
+                <div class="bg-white p-8 rounded-xl shadow-lg border-l-4 border-accent text-left">
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        LKP Indo Jaya Kebumen senantiasa berupaya menjadi yang terdepan dalam menyediakan pendidikan vokasi berkualitas. Sebagai bukti komitmen ini, kami bangga mengumumkan bahwa LKP Indo Jaya Kebumen telah lolos seleksi sebagai <strong>Lembaga Penyelenggara Pelatihan Koding dan Kecerdasan Artifisial (KKA)</strong> dari Kementerian Pendidikan Dasar dan Menengah (Kemendikbudristek) Republik Indonesia.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Disahkan dengan SK Penetapan dari Direktur Jenderal Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Pendidikan Menengah Nomor: <strong>4505/C/HK.03.01/2025</strong> tentang Lembaga Penyelenggara Pelatihan dan Pelatihan Koding dan Kecerdasan Artifisial. Pencapaian ini merupakan pengakuan atas standar kualitas, kurikulum yang relevan, serta dedikasi kami dalam mempersiapkan talenta digital masa depan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-gray-300 py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-xl font-bold text-white font-heading">LKP INDO JAYA</span>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-4 max-w-sm">
+                        Membangun generasi kompeten, kreatif, dan siap kerja. Bergabunglah bersama kami untuk masa depan yang lebih baik.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-primary mt-1"></i>
+                            <span>Dk. Kalibalong RT.02 RW.02 Ds. Aditirto, Kec. Pejagoan, Kab. Kebumen.</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-primary text-lg"></i>
+                            <a href="https://wa.me/6285726818142" class="hover:text-white transition font-bold">0857-2681-8142</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fab fa-instagram text-primary text-lg"></i>
+                            <a href="https://www.instagram.com/lkpindojayakebumen/" target="_blank" class="hover:text-white transition font-bold">@lkpindojayakebumen</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 text-center text-sm">
+                <p>&copy; 2026 LKP Indo Jaya Kebumen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
