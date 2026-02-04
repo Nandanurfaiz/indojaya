@@ -21,8 +21,8 @@
                         accent: '#fbbf24',
                         dark: '#1e293b',
                         banjar: '#d97706',
-                        tableBlue: '#4472c4', // Warna biru sesuai gambar tabel
-                        tableDark: '#203764', // Warna biru tua footer tabel
+                        tableBlue: '#4472c4',
+                        tableDark: '#203764',
                     },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
@@ -32,16 +32,6 @@
             }
         }
     </script>
-    
-    <style>
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-    </style>
 </head>
 <body class="bg-gray-50 text-gray-700 font-sans antialiased">
 
@@ -66,11 +56,8 @@
                 </div>
 
                 <div class="hidden md:block">
-                    <a href="https://wa.me/6285726818142" class="relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white transition-all duration-300 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full group hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:ring-4 hover:ring-yellow-300 hover:shadow-xl hover:-translate-y-1">
-                        <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
-                        <span class="relative flex items-center gap-2">
-                            Daftar Sekarang <i class="fas fa-paper-plane text-sm"></i>
-                        </span>
+                    <a href="https://wa.me/6285726818142" class="bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-6 py-2.5 rounded-full font-bold shadow hover:shadow-lg transition transform hover:-translate-y-0.5 text-sm">
+                        Daftar Sekarang <i class="fas fa-paper-plane ml-1"></i>
                     </a>
                 </div>
                 
@@ -84,271 +71,303 @@
                 <a href="program.html" class="block py-2 text-gray-600 hover:text-primary">Program Kursus</a>
                 <a href="kka.html" class="block py-2 text-primary font-bold">Pelatihan KKA</a>
                 <a href="tentangkami.html" class="block py-2 text-gray-600 hover:text-primary">Tentang Kami</a>
-                <a href="https://wa.me/6285726818142" class="block mt-2 text-center bg-accent text-white py-2 rounded-lg font-bold">Daftar Sekarang</a>
             </div>
         </div>
     </nav>
 
-    <header class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-gray-900">
+    <header class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-gray-900 text-center">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Koding dan AI" class="w-full h-full object-cover opacity-40">
-            <div class="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-primary/80"></div>
-            <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/circuit-board.png')]"></div>
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Koding dan AI" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900/90"></div>
         </div>
-
-        <div class="container mx-auto px-6 relative z-10 text-center">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white text-xs font-medium mb-6 backdrop-blur-sm">
-                <span class="text-accent font-bold">SK Penetapan:</span>
-                <span>4806/C/HK.03.01/2025</span>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="inline-block px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white text-xs font-medium mb-6">
+                SK Penetapan: 4806/C/HK.03.01/2025
             </div>
-
-            <h1 class="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white leading-tight mb-6">
-                Pelatihan Koding & <br> <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-accent">Kecerdasan Artifisial (KKA)</span>
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
+                Pelatihan Koding & <br> <span class="text-accent">Kecerdasan Artifisial</span>
             </h1>
-            
-            <p class="text-gray-200 text-lg mb-8 leading-relaxed max-w-3xl mx-auto font-light">
-                "KKA membuka pintu keSUKSESan baru."
-            </p>
-            <p class="text-gray-300 text-sm max-w-xl mx-auto border-t border-gray-500 pt-4">
-                CP: 0813-2887-0293 | Desa Aditirto RT.08 RW.02, Kec. Pejagoan, Kab. Kebumen
+            <p class="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
+                Mempersiapkan talenta digital masa depan melalui kurikulum standar industri.
             </p>
         </div>
     </header>
 
-    <section class="py-16 bg-green-50 border-t border-green-200 relative overflow-hidden">
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="flex items-center gap-4 mb-8 border-b-2 border-green-200 pb-4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Logo_Kabupaten_Kebumen.png" class="h-16 w-auto" alt="Logo Kebumen">
+    <section class="py-12 bg-gray-50 min-h-screen">
+        <div class="container mx-auto px-4 md:px-6">
+            
+            <div class="flex flex-col md:flex-row justify-center gap-4 mb-12 sticky top-20 z-40 bg-gray-50/95 backdrop-blur py-4 border-b border-gray-200">
+                <button onclick="switchTab('kebumen')" id="btn-kebumen" class="flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-bold text-lg shadow-lg transition-all duration-300 transform hover:-translate-y-1 bg-primary text-white ring-4 ring-green-100 w-full md:w-auto">
+                    KAB. KEBUMEN
+                </button>
+                <button onclick="switchTab('banjar')" id="btn-banjar" class="flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-bold text-lg shadow-sm border border-gray-200 bg-white text-gray-500 hover:bg-gray-100 transition-all duration-300 w-full md:w-auto">
+                    KAB. BANJARNEGARA
+                </button>
+            </div>
+
+            <div id="content-kebumen" class="animate-fade-in space-y-20">
+                
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 md:p-8">
+                    <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2 border-b pb-4">
+                        <i class="fas fa-chalkboard-user text-primary text-2xl"></i> Fasilitator & Instruktur
+                    </h3>
+                    <div class="grid md:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>1. YUWONO WISUDO PRAMONO, S.Pd</span><span class="font-bold text-primary">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>2. MUKHLISIN, S.Tr.Kom</span><span class="font-bold text-primary">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>3. ANISA LUTFIYANI, S.Kom, M.Pd.</span><span class="font-bold text-primary">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>4. HARYONO, S. Tr. Kom</span><span class="font-bold text-primary">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>5. Sarip Hidayat, S.Pd.SD., M.M.</span><span class="font-bold text-primary">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>6. Cahyo Seto Prabowo, S.T</span><span class="font-bold text-primary">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>7. NURUL IMAN, S.Kom.</span><span class="font-bold text-primary">SMP</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>8. FITRIADI PRIHARTANTO, S.Kom</span><span class="font-bold text-primary">SMP</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>9. Yuminah, S. Kom., M.Kom.</span><span class="font-bold text-primary">SMA/K</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>10. Fersellia, S. Kom., M.Kom</span><span class="font-bold text-primary">SMA/K</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>11. Ahmad Sururi Ngafif, S. Kom., M.M.</span><span class="font-bold text-primary">SMA/K</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>12. Riski Yudhi Prasongko, S.Kom.</span><span class="font-bold text-primary">SMA/K</span></div>
+                    </div>
+                </div>
+
                 <div>
-                    <h2 class="text-3xl font-heading font-bold text-primary">Area Kabupaten Kebumen</h2>
-                    <p class="text-gray-600 text-sm">Lokasi: SMAN 1 Kebumen / SMKN 2 Kebumen</p>
-                </div>
-            </div>
-
-            <div class="mb-12">
-                <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2"><i class="fas fa-users text-primary"></i> Fasilitator & Instruktur</h3>
-                <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
-                    <table class="min-w-full text-sm text-left">
-                        <thead class="bg-primary text-white">
-                            <tr>
-                                <th class="px-6 py-3 w-12">No</th>
-                                <th class="px-6 py-3">Nama Fasilitator</th>
-                                <th class="px-6 py-3">Jenjang</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-100">
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">1</td><td class="px-6 py-3 font-medium">YUWONO WISUDO PRAMONO, S.Pd</td><td class="px-6 py-3">SD</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">2</td><td class="px-6 py-3 font-medium">MUKHLISIN, S.Tr.Kom</td><td class="px-6 py-3">SD</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">3</td><td class="px-6 py-3 font-medium">ANISA LUTFIYANI, S.Kom, M.Pd.</td><td class="px-6 py-3">SD</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">4</td><td class="px-6 py-3 font-medium">HARYONO, S. Tr. Kom</td><td class="px-6 py-3">SD</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">5</td><td class="px-6 py-3 font-medium">Sarip Hidayat, S.Pd.SD., M.M.</td><td class="px-6 py-3">SD</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">6</td><td class="px-6 py-3 font-medium">Cahyo Seto Prabowo, S.T</td><td class="px-6 py-3">SD</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">7</td><td class="px-6 py-3 font-medium">NURUL IMAN, S.Kom.</td><td class="px-6 py-3">SMP</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">8</td><td class="px-6 py-3 font-medium">FITRIADI PRIHARTANTO, S.Kom, Gr</td><td class="px-6 py-3">SMP</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">9</td><td class="px-6 py-3 font-medium">Yuminah, S. Kom., M.Kom.</td><td class="px-6 py-3">SMA/SMK</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">10</td><td class="px-6 py-3 font-medium">Fersellia, S. Kom., M.Kom</td><td class="px-6 py-3">SMA/SMK</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">11</td><td class="px-6 py-3 font-medium">Ahmad Sururi Ngafif, S. Kom., M.M.</td><td class="px-6 py-3">SMA/SMK</td></tr>
-                            <tr class="hover:bg-green-50"><td class="px-6 py-3 text-center font-bold">12</td><td class="px-6 py-3 font-medium">Riski Yudhi Prasongko, S.Kom., M.Kom.</td><td class="px-6 py-3">SMA/SMK</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="mb-16">
-                <h3 class="text-xl font-bold text-dark mb-6 text-center">BIAYA PELATIHAN KKA KAB. KEBUMEN</h3>
-                
-                <div class="max-w-4xl mx-auto overflow-x-auto p-1">
-                    <div class="flex flex-row min-w-[600px]">
-                        <div class="flex-grow border-2 border-black">
-                            <div class="grid grid-cols-3 text-center text-white font-bold">
-                                <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
-                                <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
-                                <div class="bg-tableBlue p-3">RANGE KAB. KEBUMEN</div>
+                    <h3 class="text-xl font-bold text-dark mb-4 text-center">RENCANA ANGGARAN (KEBUMEN)</h3>
+                    <div class="max-w-4xl mx-auto overflow-x-auto p-1 shadow-lg rounded-lg">
+                        <div class="flex flex-row min-w-[600px]">
+                            <div class="flex-grow border-2 border-black">
+                                <div class="grid grid-cols-3 text-center text-white font-bold">
+                                    <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
+                                    <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
+                                    <div class="bg-tableBlue p-3">RANGE KAB. KEBUMEN</div>
+                                </div>
+                                <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
+                                    <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
+                                    <div class="p-4 border-r border-b border-black text-red-600 font-bold text-xl">Rp5.110.000,00</div>
+                                    <div class="p-4 border-b border-black font-bold text-red-600">RANGE ATAS</div>
+                                </div>
+                                <div class="grid grid-cols-3 text-center items-center bg-white">
+                                    <div class="p-4 border-r border-black font-bold text-lg">35</div>
+                                    <div class="p-4 border-r border-black font-bold text-black text-xl">Rp1.960.000,00</div>
+                                    <div class="p-4 font-bold text-black">RANGE BAWAH</div>
+                                </div>
                             </div>
-                            <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
-                                <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
-                                <div class="p-4 border-r border-b border-black text-red-600 font-bold text-xl">Rp5.110.000,00</div>
-                                <div class="p-4 border-b border-black font-bold text-red-600">RANGE ATAS</div>
-                            </div>
-                            <div class="grid grid-cols-3 text-center items-center bg-white">
-                                <div class="p-4 border-r border-black font-bold text-lg">35</div>
-                                <div class="p-4 border-r border-black font-bold text-black text-xl">Rp1.960.000,00</div>
-                                <div class="p-4 font-bold text-black">RANGE BAWAH</div>
-                            </div>
-                        </div>
-
-                        <div class="w-40 flex flex-col gap-2 ml-2">
-                            <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">
-                                DRAF<br>RAB. KEBUMEN
-                            </div>
-                            <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">
-                                SPJ SEKOLAH
+                            <div class="w-40 flex flex-col gap-2 ml-2">
+                                <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">DRAF<br>RAB. KEBUMEN</div>
+                                <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">SPJ SEKOLAH</div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="flex border-2 border-black mt-2 w-[calc(100%-10.5rem)] min-w-[600px]">
-                        <div class="bg-tableDark text-white w-5/12 p-3 flex flex-col justify-center items-center text-center">
-                            <span class="font-bold">Secara Administratif</span>
-                            <span class="text-sm">(Kwitansi dan Sertifikat)</span>
-                        </div>
-                        <div class="bg-white text-black w-7/12 p-3 text-xs leading-snug">
-                            <span class="font-bold block mb-1">Bukti Tanda Bayar</span>
-                            Menerbitkan Invoice/Kuitansi/Bukti Bayar per Orang Kepada Satuan Pendidikan
-                        </div>
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+                    <div class="bg-green-600 p-6">
+                        <h2 class="text-xl font-bold text-white flex items-center gap-3">
+                            <i class="far fa-clock"></i> JADWAL PELAKSANAAN KKA KAB. KEBUMEN
+                        </h2>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left border-collapse">
+                            <thead class="bg-green-50 text-green-900 border-b border-green-200">
+                                <tr>
+                                    <th class="px-6 py-4 font-bold border-r border-green-200">LOKUS / KELAS</th>
+                                    <th class="px-6 py-4 font-bold border-r border-green-200">IN-1</th>
+                                    <th class="px-6 py-4 font-bold border-r border-green-200">ON-1</th>
+                                    <th class="px-6 py-4 font-bold border-r border-green-200">ON-2</th>
+                                    <th class="px-6 py-4 font-bold border-r border-green-200">ON-3</th>
+                                    <th class="px-6 py-4 font-bold">IN-2</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100 text-gray-700">
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SD_KBM_1</td><td rowspan="5" class="px-6 py-3 text-center align-middle bg-green-50/50 border-r font-semibold text-primary">3 - 7 Juli</td><td rowspan="5" class="px-6 py-3 text-center align-middle border-r">20 Juli</td><td rowspan="5" class="px-6 py-3 text-center align-middle border-r">15 Agt</td><td rowspan="5" class="px-6 py-3 text-center align-middle border-r">14 Sept</td><td rowspan="5" class="px-6 py-3 text-center align-middle font-bold text-primary bg-green-50/50">24 - 26 Sept</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SD_KBM_2</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SD_KBM_3</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SMP_KBM_1</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SMA/K_KBM_1</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SD_KBM_4</td><td rowspan="6" class="px-6 py-3 text-center align-middle bg-white border-r font-semibold text-primary">9 - 13 Juli</td><td rowspan="6" class="px-6 py-3 text-center align-middle border-r">27 Juli</td><td rowspan="6" class="px-6 py-3 text-center align-middle border-r">27 Agt</td><td rowspan="6" class="px-6 py-3 text-center align-middle border-r">13 Sept</td><td rowspan="6" class="px-6 py-3 text-center align-middle font-bold text-primary bg-white">26 - 28 Sept</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SD_KBM_5</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SD_KBM_6</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SMP_KBM_2</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SMP_KBM_3</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SMA/K_KBM_2</td></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </div>
 
-            <div class="mb-12">
-                <h4 class="font-bold text-xl text-gray-700 mb-4 border-l-4 border-primary pl-3">Dokumentasi Kegiatan Kebumen</h4>
-                
-                <div class="relative group">
-                    <div id="carousel-kebumen" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth p-4">
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture2.png', 'Kegiatan Fase C1')">
-                            <img src="img/Picture2.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-primary text-white">FASE C1</div>
-                        </div>
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture3.png', 'Kegiatan Fase C3')">
-                            <img src="img/Picture3.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-primary text-white">FASE C3</div>
-                        </div>
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture4.png', 'Kegiatan Fase E1')">
-                            <img src="img/Picture4.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-primary text-white">FASE E1</div>
-                        </div>
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture5.png', 'Suasana Kelas')">
-                            <img src="img/Picture5.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-primary text-white">SUASANA KELAS</div>
-                        </div>
-                         <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture9.jpg', 'Foto Bersama')">
-                            <img src="img/Picture9.jpg" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-primary text-white">FOTO BERSAMA</div>
-                        </div>
-                    </div>
-
-                    <button onclick="scrollCarousel('carousel-kebumen', -300)" class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-r-lg hover:bg-black/80 hidden md:block">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button onclick="scrollCarousel('carousel-kebumen', 300)" class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-l-lg hover:bg-black/80 hidden md:block">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-orange-50 border-t border-orange-200 relative overflow-hidden">
-        <div class="container mx-auto px-6 relative z-10">
-            <div class="flex items-center gap-4 mb-8 border-b-2 border-orange-200 pb-4">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Lambang_Kabupaten_Banjarnegara.png" class="h-16 w-auto" alt="Logo Banjarnegara">
                 <div>
-                    <h2 class="text-3xl font-heading font-bold text-banjar">Area Kab. Banjarnegara</h2>
-                    <p class="text-gray-600 text-sm">Lokasi: SMPN 1 Banjarnegara / SMKN 2 Bawang</p>
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="h-px bg-gray-300 flex-1"></div>
+                        <h2 class="text-2xl font-bold text-gray-800">DOKUMENTASI PER KELAS</h2>
+                        <div class="h-px bg-gray-300 flex-1"></div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        
+                        <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
+                            <div class="p-4 border-b bg-green-50 flex justify-between">
+                                <h3 class="font-bold text-primary">SD_KBM_1</h3>
+                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span>
+                            </div>
+                            <div class="p-4 grid grid-cols-2 gap-2">
+                                <img src="img/Picture2.png" onclick="openModal('img/Picture2.png', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture3.png" onclick="openModal('img/Picture3.png', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture4.png" onclick="openModal('img/Picture4.png', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
+                            <div class="p-4 border-b bg-green-50 flex justify-between">
+                                <h3 class="font-bold text-primary">SD_KBM_4</h3>
+                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span>
+                            </div>
+                            <div class="p-4 grid grid-cols-2 gap-2">
+                                <img src="img/Picture5.png" onclick="openModal('img/Picture5.png', 'SD_KBM_4')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture6.png" onclick="openModal('img/Picture6.png', 'SD_KBM_4')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture7.png" onclick="openModal('img/Picture7.png', 'SD_KBM_4')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
+                            <div class="p-4 border-b bg-green-50 flex justify-between">
+                                <h3 class="font-bold text-primary">SMP_KBM_1</h3>
+                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span>
+                            </div>
+                            <div class="p-4 grid grid-cols-2 gap-2">
+                                <img src="img/Picture9.jpg" onclick="openModal('img/Picture9.jpg', 'SMP_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture2.png" onclick="openModal('img/Picture2.png', 'SMP_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture3.png" onclick="openModal('img/Picture3.png', 'SMP_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
+                            <div class="p-4 border-b bg-green-50 flex justify-between">
+                                <h3 class="font-bold text-primary">SMA/K_KBM_2</h3>
+                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span>
+                            </div>
+                            <div class="p-4 grid grid-cols-2 gap-2">
+                                <img src="img/Picture8.png" onclick="openModal('img/Picture8.png', 'SMA/K_KBM_2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture4.png" onclick="openModal('img/Picture4.png', 'SMA/K_KBM_2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture5.png" onclick="openModal('img/Picture5.png', 'SMA/K_KBM_2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
-            <div class="mb-12">
-                <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2"><i class="fas fa-users text-banjar"></i> Fasilitator & Instruktur</h3>
-                <div class="bg-white rounded-xl shadow overflow-hidden border border-gray-200">
-                    <table class="min-w-full text-sm text-left">
-                        <thead class="bg-banjar text-white">
-                            <tr>
-                                <th class="px-6 py-3 w-12">No</th>
-                                <th class="px-6 py-3">Nama Fasilitator</th>
-                                <th class="px-6 py-3">Instansi</th>
-                                <th class="px-6 py-3">Asal</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-100">
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">1</td><td class="px-6 py-3 font-bold">Desi Putrianasari, M.Pd.</td><td class="px-6 py-3">SD Negeri 3 Plumbungan</td><td class="px-6 py-3">Kab. Banjarnegara</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">2</td><td class="px-6 py-3 font-bold">Yulianto Harsono, S.Pd.M.Si</td><td class="px-6 py-3">Cabdin Pend. Wilayah Banyumas</td><td class="px-6 py-3">Kab. Banyumas</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">3</td><td class="px-6 py-3 font-bold">Putut Joko Wibowo, M.T.</td><td class="px-6 py-3">BBPMP Provinsi Jawa Tengah</td><td class="px-6 py-3">Kota Semarang</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">4</td><td class="px-6 py-3 font-bold">Dr. RICARDUS ANGGI P., M.CS.</td><td class="px-6 py-3">Univ. Dian Nuswantoro</td><td class="px-6 py-3">Kota Semarang</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">5</td><td class="px-6 py-3 font-bold">Abdul Arif, M.Pd.</td><td class="px-6 py-3">UNNES</td><td class="px-6 py-3">Kota Semarang</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">6</td><td class="px-6 py-3 font-bold">Pratama Bayu Widagdo, S.Sn.</td><td class="px-6 py-3">Univ. Negeri Semarang</td><td class="px-6 py-3">Kota Semarang</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">7</td><td class="px-6 py-3 font-bold">Ahmad Sururi, S. Kom, M.M.</td><td class="px-6 py-3">LKP Indo Jaya Kebumen</td><td class="px-6 py-3">Kab. Kebumen</td></tr>
-                            <tr class="hover:bg-orange-50"><td class="px-6 py-3 text-center font-bold">8</td><td class="px-6 py-3 font-bold">Riski Yudhi Prasongko, M. Kom</td><td class="px-6 py-3">LKP Indo Jaya Kebumen</td><td class="px-6 py-3">Kab. Kebumen</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <div class="mb-16">
-                <h3 class="text-xl font-bold text-dark mb-6 text-center">RENCANA ANGGARAN PELATIHAN KKA KAB. BANJARNEGARA</h3>
+            <div id="content-banjar" class="hidden animate-fade-in space-y-20">
                 
-                <div class="max-w-4xl mx-auto overflow-x-auto p-1">
-                    <div class="flex flex-row min-w-[600px]">
-                        <div class="flex-grow border-2 border-black">
-                            <div class="grid grid-cols-3 text-center text-white font-bold">
-                                <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
-                                <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
-                                <div class="bg-tableBlue p-3">RANGE KAB. BANJARNEGARA</div>
-                            </div>
-                            <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
-                                <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
-                                <div class="p-4 border-r border-b border-black text-red-600 font-bold text-xl">Rp5.320.000,00</div>
-                                <div class="p-4 border-b border-black font-bold text-red-600">BATAS ATAS</div>
-                            </div>
-                            <div class="grid grid-cols-3 text-center items-center bg-white">
-                                <div class="p-4 border-r border-black font-bold text-lg">35</div>
-                                <div class="p-4 border-r border-black font-bold text-red-600 text-xl">Rp2.225.000,00</div>
-                                <div class="p-4 font-bold text-red-600">BATAS BAWAH</div>
-                            </div>
-                        </div>
-
-                        <div class="w-40 flex flex-col gap-2 ml-2">
-                            <div class="bg-red-600 text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">
-                                DRAF<br>RAB. BANJARNEGARA
-                            </div>
-                            <div class="bg-tableDark text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">
-                                SPJ SEKOLAH
-                            </div>
-                        </div>
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 md:p-8">
+                    <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2 border-b pb-4">
+                        <i class="fas fa-chalkboard-user text-banjar text-2xl"></i> Fasilitator & Instruktur
+                    </h3>
+                    <div class="grid md:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>1. Desi Putrianasari, M.Pd.</span><span class="font-bold text-banjar">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>2. Yulianto Harsono, S.Pd.M.Si</span><span class="font-bold text-banjar">SD</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>3. Putut Joko Wibowo, M.T.</span><span class="font-bold text-banjar">BBPMP</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>4. Dr. Ricardus Anggi P., M.CS.</span><span class="font-bold text-banjar">UDINUS</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>5. Abdul Arif, M.Pd.</span><span class="font-bold text-banjar">UNNES</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>6. Pratama Bayu Widagdo, S.Sn.</span><span class="font-bold text-banjar">UNNES</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>7. Ahmad Sururi, S. Kom, M.M.</span><span class="font-bold text-banjar">LKP</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>8. Riski Yudhi Prasongko, M. Kom</span><span class="font-bold text-banjar">LKP</span></div>
                     </div>
+                </div>
 
-                    <div class="flex border-2 border-black mt-2 w-[calc(100%-10.5rem)] min-w-[600px]">
-                        <div class="bg-tableDark text-white w-5/12 p-3 flex flex-col justify-center items-center text-center">
-                            <span class="font-bold">Secara Administratif</span>
-                            <span class="text-sm">(Kwitansi dan Sertifikat)</span>
-                        </div>
-                        <div class="bg-white text-black w-7/12 p-3 text-xs leading-snug">
-                            <span class="font-bold block mb-1">Bukti Tanda Bayar</span>
-                            Menerbitkan Invoice/Kuitansi/Bukti Bayar per Orang Kepada Satuan Pendidikan.
+                <div>
+                    <h3 class="text-xl font-bold text-dark mb-4 text-center">RENCANA ANGGARAN (BANJARNEGARA)</h3>
+                    <div class="max-w-4xl mx-auto overflow-x-auto p-1 shadow-lg rounded-lg">
+                        <div class="flex flex-row min-w-[600px]">
+                            <div class="flex-grow border-2 border-black">
+                                <div class="grid grid-cols-3 text-center text-white font-bold">
+                                    <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
+                                    <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
+                                    <div class="bg-tableBlue p-3">RANGE KAB. BANJAR</div>
+                                </div>
+                                <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
+                                    <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
+                                    <div class="p-4 border-r border-b border-black text-red-600 font-bold text-xl">Rp5.320.000,00</div>
+                                    <div class="p-4 border-b border-black font-bold text-red-600">BATAS ATAS</div>
+                                </div>
+                                <div class="grid grid-cols-3 text-center items-center bg-white">
+                                    <div class="p-4 border-r border-black font-bold text-lg">35</div>
+                                    <div class="p-4 border-r border-black font-bold text-red-600 text-xl">Rp2.225.000,00</div>
+                                    <div class="p-4 font-bold text-red-600">BATAS BAWAH</div>
+                                </div>
+                            </div>
+                            <div class="w-40 flex flex-col gap-2 ml-2">
+                                <div class="bg-red-600 text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">DRAF<br>RAB. BANJAR</div>
+                                <div class="bg-tableDark text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">SPJ SEKOLAH</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="mb-12">
-                <h4 class="font-bold text-xl text-gray-700 mb-4 border-l-4 border-banjar pl-3">Dokumentasi Kegiatan Banjarnegara</h4>
-                
-                <div class="relative group">
-                    <div id="carousel-banjar" class="flex gap-4 overflow-x-auto no-scrollbar scroll-smooth p-4">
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture6.png', 'Kegiatan Fase C4')">
-                            <img src="img/Picture6.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-banjar text-white">FASE C4</div>
-                        </div>
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture7.png', 'Kegiatan Fase C5')">
-                            <img src="img/Picture7.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-banjar text-white">FASE C5</div>
-                        </div>
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture8.png', 'Kegiatan Fase D2')">
-                            <img src="img/Picture8.png" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-banjar text-white">FASE D2</div>
-                        </div>
-                        <div class="min-w-[280px] md:min-w-[320px] bg-white rounded-lg shadow overflow-hidden cursor-pointer" onclick="openModal('img/Picture9.jpg', 'Kegiatan Fase E2')">
-                            <img src="img/Picture9.jpg" class="w-full h-48 object-cover hover:scale-105 transition">
-                            <div class="p-2 text-center text-sm font-bold bg-banjar text-white">FASE E2</div>
-                        </div>
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+                    <div class="bg-banjar p-6">
+                        <h2 class="text-xl font-bold text-white flex items-center gap-3">
+                            <i class="far fa-clock"></i> JADWAL PELAKSANAAN KKA KAB. BANJARNEGARA
+                        </h2>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-sm text-left border-collapse">
+                            <thead class="bg-orange-50 text-orange-900 border-b border-orange-200">
+                                <tr>
+                                    <th class="px-6 py-4 font-bold border-r border-orange-200">LOKUS / KELAS</th>
+                                    <th class="px-6 py-4 font-bold border-r border-orange-200">IN-1</th>
+                                    <th class="px-6 py-4 font-bold border-r border-orange-200">ON-1</th>
+                                    <th class="px-6 py-4 font-bold border-r border-orange-200">ON-2</th>
+                                    <th class="px-6 py-4 font-bold border-r border-orange-200">ON-3</th>
+                                    <th class="px-6 py-4 font-bold">IN-2</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100 text-gray-700">
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SD_BJR_1</td><td rowspan="3" class="px-6 py-3 text-center align-middle bg-orange-50/50 border-r font-semibold text-banjar">15 - 19 Juli</td><td rowspan="3" class="px-6 py-3 text-center align-middle border-r">9 Agt</td><td rowspan="3" class="px-6 py-3 text-center align-middle border-r">31 Agt</td><td rowspan="3" class="px-6 py-3 text-center align-middle border-r">20 Sept</td><td rowspan="3" class="px-6 py-3 text-center align-middle font-bold text-banjar bg-orange-50/50">10 - 12 Okt</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SD_BJR_2</td></tr>
+                                <tr class="hover:bg-gray-50"><td class="px-6 py-3 font-bold border-r">SMP_BJR_1</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SD_BJR_3</td><td rowspan="4" class="px-6 py-3 text-center align-middle bg-white border-r font-semibold text-banjar">22 - 26 Juli</td><td rowspan="4" class="px-6 py-3 text-center align-middle border-r">10 Agt</td><td rowspan="4" class="px-6 py-3 text-center align-middle border-r">30 Agt</td><td rowspan="4" class="px-6 py-3 text-center align-middle border-r">21 Sept</td><td rowspan="4" class="px-6 py-3 text-center align-middle font-bold text-banjar bg-white">17 - 19 Okt</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SD_BJR_4</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SMP_BJR_2</td></tr>
+                                <tr class="bg-gray-50 hover:bg-gray-100"><td class="px-6 py-3 font-bold border-r">SMA/K_BJR_1</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex items-center gap-4 mb-8">
+                        <div class="h-px bg-gray-300 flex-1"></div>
+                        <h2 class="text-2xl font-bold text-gray-800">DOKUMENTASI PER KELAS</h2>
+                        <div class="h-px bg-gray-300 flex-1"></div>
                     </div>
 
-                    <button onclick="scrollCarousel('carousel-banjar', -300)" class="absolute left-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-r-lg hover:bg-black/80 hidden md:block">
-                        <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button onclick="scrollCarousel('carousel-banjar', 300)" class="absolute right-0 top-1/2 -translate-y-1/2 bg-black/50 text-white p-3 rounded-l-lg hover:bg-black/80 hidden md:block">
-                        <i class="fas fa-chevron-right"></i>
-                    </button>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
+                            <div class="p-4 border-b bg-orange-50 flex justify-between">
+                                <h3 class="font-bold text-banjar">SD_BJR_1</h3>
+                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span>
+                            </div>
+                            <div class="p-4 grid grid-cols-2 gap-2">
+                                <img src="img/Picture6.png" onclick="openModal('img/Picture6.png', 'SD_BJR_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture7.png" onclick="openModal('img/Picture7.png', 'SD_BJR_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture8.png" onclick="openModal('img/Picture8.png', 'SD_BJR_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
+                            <div class="p-4 border-b bg-orange-50 flex justify-between">
+                                <h3 class="font-bold text-banjar">SD_BJR_3</h3>
+                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span>
+                            </div>
+                            <div class="p-4 grid grid-cols-2 gap-2">
+                                <img src="img/Picture9.jpg" onclick="openModal('img/Picture9.jpg', 'SD_BJR_3')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture2.png" onclick="openModal('img/Picture2.png', 'SD_BJR_3')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/Picture3.png" onclick="openModal('img/Picture3.png', 'SD_BJR_3')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -356,89 +375,47 @@
     </section>
 
     <footer class="bg-dark text-gray-300 py-12">
-        <div class="container mx-auto px-6">
-            <div class="grid md:grid-cols-2 gap-8 mb-8">
-                <div>
-                    <div class="flex items-center gap-2 mb-4">
-                        <span class="text-xl font-bold text-white font-heading">LKP INDO JAYA</span>
-                    </div>
-                    <p class="text-sm leading-relaxed mb-4 max-w-sm">
-                        Membangun generasi kompeten, kreatif, dan siap kerja. Bergabunglah bersama kami untuk masa depan yang lebih baik.
-                    </p>
-                </div>
-
-                <div>
-                    <h4 class="text-white font-bold mb-4">Hubungi Kami</h4>
-                    <ul class="space-y-3 text-sm">
-                        <li class="flex items-start gap-3">
-                            <i class="fas fa-map-marker-alt text-primary mt-1"></i>
-                            <span>Dk. Kalibalong RT.02 RW.02 Ds. Aditirto, Kec. Pejagoan, Kab. Kebumen.</span>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fab fa-whatsapp text-primary text-lg"></i>
-                            <a href="https://wa.me/6285726818142" class="hover:text-white transition font-bold">0857-2681-8142</a>
-                        </li>
-                        <li class="flex items-center gap-3">
-                            <i class="fab fa-instagram text-primary text-lg"></i>
-                            <a href="https://www.instagram.com/lkpindojayakebumen/" target="_blank" class="hover:text-white transition font-bold">@lkpindojayakebumen</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="border-t border-gray-700 pt-8 text-center text-sm">
-                <p>&copy; 2026 LKP Indo Jaya Kebumen. All rights reserved.</p>
-            </div>
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2026 LKP Indo Jaya Kebumen. All rights reserved.</p>
         </div>
     </footer>
 
     <div id="imageModal" class="fixed inset-0 z-[60] hidden bg-black/95 flex items-center justify-center p-4 backdrop-blur-sm" onclick="closeModal()">
-        <button onclick="closeModal()" class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300 transition">
-            <i class="fas fa-times"></i>
-        </button>
-        <div class="relative max-w-4xl w-full" onclick="event.stopPropagation()">
-            <img id="modalImage" src="" alt="Preview" class="w-full max-h-[80vh] object-contain rounded-lg shadow-2xl">
-            <div class="mt-4 text-center">
-                <p id="modalCaption" class="text-white text-lg font-semibold tracking-wide bg-black/50 px-4 py-1 rounded inline-block"></p>
-            </div>
-        </div>
+        <button onclick="closeModal()" class="absolute top-4 right-4 text-white text-4xl"><i class="fas fa-times"></i></button>
+        <img id="modalImage" src="" class="max-w-full max-h-[90vh] rounded shadow-2xl">
+        <p id="modalCaption" class="absolute bottom-10 bg-black/50 text-white px-4 py-2 rounded"></p>
     </div>
 
     <script>
-        // Mobile Menu
         const menuBtn = document.getElementById('mobile-menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
 
-        // Carousel Scroll
-        function scrollCarousel(id, amount) {
-            const container = document.getElementById(id);
-            container.scrollBy({ left: amount, behavior: 'smooth' });
+        function switchTab(area) {
+            const kbm = document.getElementById('content-kebumen');
+            const bjr = document.getElementById('content-banjar');
+            const btnKbm = document.getElementById('btn-kebumen');
+            const btnBjr = document.getElementById('btn-banjar');
+
+            if(area === 'kebumen'){
+                kbm.classList.remove('hidden'); bjr.classList.add('hidden');
+                btnKbm.classList.add('bg-primary', 'text-white', 'ring-4'); btnKbm.classList.remove('bg-white', 'text-gray-500');
+                btnBjr.classList.remove('bg-banjar', 'text-white'); btnBjr.classList.add('bg-white', 'text-gray-500');
+            } else {
+                kbm.classList.add('hidden'); bjr.classList.remove('hidden');
+                btnBjr.classList.add('bg-banjar', 'text-white', 'ring-4', 'ring-orange-100'); btnBjr.classList.remove('bg-white', 'text-gray-500');
+                btnKbm.classList.remove('bg-primary', 'text-white', 'ring-4'); btnKbm.classList.add('bg-white', 'text-gray-500');
+            }
         }
 
-        // Modal
-        function openModal(imageSrc, captionText) {
-            const modal = document.getElementById('imageModal');
-            const modalImg = document.getElementById('modalImage');
-            const modalCap = document.getElementById('modalCaption');
-            modalImg.src = imageSrc;
-            modalCap.innerText = captionText;
-            modal.classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
+        function openModal(src, caption) {
+            document.getElementById('imageModal').classList.remove('hidden');
+            document.getElementById('modalImage').src = src;
+            document.getElementById('modalCaption').innerText = caption;
         }
-
         function closeModal() {
-            const modal = document.getElementById('imageModal');
-            modal.classList.add('hidden');
-            document.body.style.overflow = 'auto';
+            document.getElementById('imageModal').classList.add('hidden');
         }
-
-        document.addEventListener('keydown', function(event) {
-            if (event.key === "Escape") closeModal();
-        });
     </script>
-
 </body>
 </html>
