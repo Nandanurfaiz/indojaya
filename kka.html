@@ -21,8 +21,8 @@
                         accent: '#fbbf24',
                         dark: '#1e293b',
                         banjar: '#d97706',
-                        tableBlue: '#4472c4',
-                        tableDark: '#203764',
+                        tableBlue: '#4472c4', // Warna biru header
+                        tableDark: '#203764', // Warna biru tua footer
                     },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
@@ -56,8 +56,11 @@
                 </div>
 
                 <div class="hidden md:block">
-                    <a href="https://wa.me/6285726818142" class="bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-6 py-2.5 rounded-full font-bold shadow hover:shadow-lg transition transform hover:-translate-y-0.5 text-sm">
-                        Daftar Sekarang <i class="fas fa-paper-plane ml-1"></i>
+                    <a href="https://wa.me/6285726818142" class="relative inline-flex items-center justify-center px-6 py-2.5 overflow-hidden font-bold text-white transition-all duration-300 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full group hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:ring-4 hover:ring-yellow-300 hover:shadow-xl hover:-translate-y-1">
+                        <span class="absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease"></span>
+                        <span class="relative flex items-center gap-2">
+                            Daftar Sekarang <i class="fas fa-paper-plane text-sm"></i>
+                        </span>
                     </a>
                 </div>
                 
@@ -71,6 +74,7 @@
                 <a href="program.html" class="block py-2 text-gray-600 hover:text-primary">Program Kursus</a>
                 <a href="kka.html" class="block py-2 text-primary font-bold">Pelatihan KKA</a>
                 <a href="tentangkami.html" class="block py-2 text-gray-600 hover:text-primary">Tentang Kami</a>
+                <a href="https://wa.me/6285726818142" class="block mt-2 text-center bg-accent text-white py-2 rounded-lg font-bold">Daftar Sekarang</a>
             </div>
         </div>
     </nav>
@@ -109,21 +113,21 @@
                 
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 md:p-8">
                     <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2 border-b pb-4">
-                        <i class="fas fa-chalkboard-user text-primary text-2xl"></i> Fasilitator & Instruktur
+                        <i class="fas fa-chalkboard-user text-primary text-2xl"></i> Fasilitator
                     </h3>
                     <div class="grid md:grid-cols-2 gap-x-8 gap-y-4 text-sm">
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>1. YUWONO WISUDO PRAMONO, S.Pd</span><span class="font-bold text-primary">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>2. MUKHLISIN, S.Tr.Kom</span><span class="font-bold text-primary">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>3. ANISA LUTFIYANI, S.Kom, M.Pd.</span><span class="font-bold text-primary">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>4. HARYONO, S. Tr. Kom</span><span class="font-bold text-primary">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>5. Sarip Hidayat, S.Pd.SD., M.M.</span><span class="font-bold text-primary">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>6. Cahyo Seto Prabowo, S.T</span><span class="font-bold text-primary">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>7. NURUL IMAN, S.Kom.</span><span class="font-bold text-primary">SMP</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>8. FITRIADI PRIHARTANTO, S.Kom</span><span class="font-bold text-primary">SMP</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>9. Yuminah, S. Kom., M.Kom.</span><span class="font-bold text-primary">SMA/K</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>10. Fersellia, S. Kom., M.Kom</span><span class="font-bold text-primary">SMA/K</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>11. Ahmad Sururi Ngafif, S. Kom., M.M.</span><span class="font-bold text-primary">SMA/K</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>12. Riski Yudhi Prasongko, S.Kom.</span><span class="font-bold text-primary">SMA/K</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>1. YUWONO WISUDO PRAMONO, S.Pd</span><span class="font-bold text-primary">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>2. MUKHLISIN, S.Tr.Kom</span><span class="font-bold text-primary">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>3. ANISA LUTFIYANI, S.Kom, M.Pd.</span><span class="font-bold text-primary">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>4. HARYONO, S. Tr. Kom</span><span class="font-bold text-primary">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>5. Sarip Hidayat, S.Pd.SD., M.M.</span><span class="font-bold text-primary">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>6. Cahyo Seto Prabowo, S.T</span><span class="font-bold text-primary">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>7. NURUL IMAN, S.Kom.</span><span class="font-bold text-primary">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>8. FITRIADI PRIHARTANTO, S.Kom</span><span class="font-bold text-primary">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>11. Ahmad Sururi Ngafif, S. Kom., M.M.</span><span class="font-bold text-primary">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>12. Riski Yudhi Prasongko, S.Kom.</span><span class="font-bold text-primary">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>9. Yuminah, S. Kom., M.Kom.</span><span class="font-bold text-primary">Fase E</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-green-50 transition"><span>10. Fersellia, S. Kom., M.Kom</span><span class="font-bold text-primary">Fase E</span></div>
                     </div>
                 </div>
 
@@ -131,23 +135,37 @@
                     <h3 class="text-xl font-bold text-dark mb-4 text-center">RENCANA ANGGARAN (KEBUMEN)</h3>
                     <div class="max-w-4xl mx-auto overflow-x-auto p-1 shadow-lg rounded-lg">
                         <div class="flex flex-row min-w-[600px]">
-                            <div class="flex-grow border-2 border-black">
-                                <div class="grid grid-cols-3 text-center text-white font-bold">
-                                    <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
-                                    <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
-                                    <div class="bg-tableBlue p-3">RANGE KAB. KEBUMEN</div>
+                            <div class="flex-grow border-2 border-black flex flex-col">
+                                <div>
+                                    <div class="grid grid-cols-3 text-center text-white font-bold">
+                                        <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
+                                        <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
+                                        <div class="bg-tableBlue p-3">RANGE KAB. KEBUMEN</div>
+                                    </div>
+                                    <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
+                                        <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
+                                        <div class="p-4 border-r border-b border-black text-black font-bold text-xl">Rp5.110.000,00</div>
+                                        <div class="p-4 border-b border-black font-bold text-black">RANGE ATAS</div>
+                                    </div>
+                                    <div class="grid grid-cols-3 text-center items-center bg-white">
+                                        <div class="p-4 border-r border-black font-bold text-lg">35</div>
+                                        <div class="p-4 border-r border-black font-bold text-black text-xl">Rp1.960.000,00</div>
+                                        <div class="p-4 font-bold text-black border-black">RANGE BAWAH</div>
+                                    </div>
                                 </div>
-                                <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
-                                    <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
-                                    <div class="p-4 border-r border-b border-black text-red-600 font-bold text-xl">Rp5.110.000,00</div>
-                                    <div class="p-4 border-b border-black font-bold text-red-600">RANGE ATAS</div>
-                                </div>
-                                <div class="grid grid-cols-3 text-center items-center bg-white">
-                                    <div class="p-4 border-r border-black font-bold text-lg">35</div>
-                                    <div class="p-4 border-r border-black font-bold text-black text-xl">Rp1.960.000,00</div>
-                                    <div class="p-4 font-bold text-black">RANGE BAWAH</div>
+                                
+                                <div class="flex border-t-2 border-black">
+                                    <div class="bg-tableDark text-white w-5/12 p-3 flex flex-col justify-center items-center text-center">
+                                        <span class="font-bold">Secara Administratif</span>
+                                        <span class="text-xs">(Kwitansi dan Sertifikat)</span>
+                                    </div>
+                                    <div class="bg-white text-black w-7/12 p-3 text-xs leading-snug">
+                                        <span class="font-bold block mb-1">Bukti Tanda Bayar</span>
+                                        Menerbitkan Invoice/Kuitansi/Bukti Bayar per Orang Kepada Satuan Pendidikan
+                                    </div>
                                 </div>
                             </div>
+
                             <div class="w-40 flex flex-col gap-2 ml-2">
                                 <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">DRAF<br>RAB. KEBUMEN</div>
                                 <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">SPJ SEKOLAH</div>
@@ -158,9 +176,7 @@
 
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
                     <div class="bg-green-600 p-6">
-                        <h2 class="text-xl font-bold text-white flex items-center gap-3">
-                            <i class="far fa-clock"></i> JADWAL PELAKSANAAN KKA KAB. KEBUMEN
-                        </h2>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-3"><i class="far fa-clock"></i> JADWAL PELAKSANAAN KKA KAB. KEBUMEN</h2>
                     </div>
                     <div class="overflow-x-auto">
                         <table class="w-full text-sm text-left border-collapse">
@@ -197,40 +213,30 @@
                         <h2 class="text-2xl font-bold text-gray-800">DOKUMENTASI PER KELAS</h2>
                         <div class="h-px bg-gray-300 flex-1"></div>
                     </div>
-
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                        
+                        <!-- C1 -->
                         <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
-                            <div class="p-4 border-b bg-green-50 flex justify-between">
-                                <h3 class="font-bold text-primary">SD_KBM_1</h3>
-                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span>
-                            </div>
+                            <div class="p-4 border-b bg-green-50 flex justify-between"><h3 class="font-bold text-primary">C1</h3><span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Tahap 1</span></div>
                             <div class="p-4 grid grid-cols-2 gap-2">
-                                <img src="img/Picture2.png" onclick="openModal('img/Picture2.png', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
-                                <img src="img/Picture3.png" onclick="openModal('img/Picture3.png', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
-                                <img src="img/Picture4.png" onclick="openModal('img/Picture4.png', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
-                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                                <img src="img/c1/IMG_20250703_135701_946.jpg" onclick="openModal('img/c1/IMG_20250703_135701_946.jpg', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/c1/IMG_20250704_084020_734.jpg" onclick="openModal('img/c1/IMG_20250704_084020_734.jpg', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/c1/IMG_20250705_083042_889.jpg" onclick="openModal('img/c1/IMG_20250705_083042_889.jpg', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/c1/IMG_20250706_103441_683.jpg" onclick="openModal('img/c1/IMG_20250706_103441_683.jpg', 'SD_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
                             </div>
                         </div>
 
+                        <!-- C2 -->
                         <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
-                            <div class="p-4 border-b bg-green-50 flex justify-between">
-                                <h3 class="font-bold text-primary">SD_KBM_4</h3>
-                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span>
-                            </div>
+                            <div class="p-4 border-b bg-green-50 flex justify-between"><h3 class="font-bold text-primary">C2</h3><span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Tahap 1</span></div>
                             <div class="p-4 grid grid-cols-2 gap-2">
-                                <img src="img/Picture5.png" onclick="openModal('img/Picture5.png', 'SD_KBM_4')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
-                                <img src="img/Picture6.png" onclick="openModal('img/Picture6.png', 'SD_KBM_4')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
-                                <img src="img/Picture7.png" onclick="openModal('img/Picture7.png', 'SD_KBM_4')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
-                                <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
+                                <img src="img/c2/IMG_20250703_142758_028.jpg" onclick="openModal('img/c2/IMG_20250703_142758_028.jpg', 'C2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/c2/IMG_20250704_085809_779.jpg" onclick="openModal('img/c2/IMG_20250704_085809_779.jpg', 'C2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/c2/IMG_20250705_083156_759.jpg" onclick="openModal('img/c2/IMG_20250705_083156_759.jpg', 'C2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
+                                <img src="img/c2/IMG_20250706_105957_848.jpg" onclick="openModal('img/c2/IMG_20250706_105957_848.jpg', 'C2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
                             </div>
                         </div>
-
                         <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
-                            <div class="p-4 border-b bg-green-50 flex justify-between">
-                                <h3 class="font-bold text-primary">SMP_KBM_1</h3>
-                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span>
-                            </div>
+                            <div class="p-4 border-b bg-green-50 flex justify-between"><h3 class="font-bold text-primary">SMP_KBM_1</h3><span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span></div>
                             <div class="p-4 grid grid-cols-2 gap-2">
                                 <img src="img/Picture9.jpg" onclick="openModal('img/Picture9.jpg', 'SMP_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
                                 <img src="img/Picture2.png" onclick="openModal('img/Picture2.png', 'SMP_KBM_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
@@ -238,12 +244,8 @@
                                 <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
                             </div>
                         </div>
-
                         <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
-                            <div class="p-4 border-b bg-green-50 flex justify-between">
-                                <h3 class="font-bold text-primary">SMA/K_KBM_2</h3>
-                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span>
-                            </div>
+                            <div class="p-4 border-b bg-green-50 flex justify-between"><h3 class="font-bold text-primary">SMA/K_KBM_2</h3><span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span></div>
                             <div class="p-4 grid grid-cols-2 gap-2">
                                 <img src="img/Picture8.png" onclick="openModal('img/Picture8.png', 'SMA/K_KBM_2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
                                 <img src="img/Picture4.png" onclick="openModal('img/Picture4.png', 'SMA/K_KBM_2')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
@@ -251,7 +253,6 @@
                                 <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -259,18 +260,16 @@
             <div id="content-banjar" class="hidden animate-fade-in space-y-20">
                 
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 md:p-8">
-                    <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2 border-b pb-4">
-                        <i class="fas fa-chalkboard-user text-banjar text-2xl"></i> Fasilitator & Instruktur
-                    </h3>
+                    <h3 class="text-xl font-bold text-dark mb-6 flex items-center gap-2 border-b pb-4"><i class="fas fa-chalkboard-user text-banjar text-2xl"></i> Fasilitator</h3>
                     <div class="grid md:grid-cols-2 gap-x-8 gap-y-4 text-sm">
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>1. Desi Putrianasari, M.Pd.</span><span class="font-bold text-banjar">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>2. Yulianto Harsono, S.Pd.M.Si</span><span class="font-bold text-banjar">SD</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>3. Putut Joko Wibowo, M.T.</span><span class="font-bold text-banjar">BBPMP</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>4. Dr. Ricardus Anggi P., M.CS.</span><span class="font-bold text-banjar">UDINUS</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>5. Abdul Arif, M.Pd.</span><span class="font-bold text-banjar">UNNES</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>6. Pratama Bayu Widagdo, S.Sn.</span><span class="font-bold text-banjar">UNNES</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>7. Ahmad Sururi, S. Kom, M.M.</span><span class="font-bold text-banjar">LKP</span></div>
-                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>8. Riski Yudhi Prasongko, M. Kom</span><span class="font-bold text-banjar">LKP</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>1. Desi Putrianasari, M.Pd.</span><span class="font-bold text-banjar">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>2. Yulianto Harsono, S.Pd.M.Si</span><span class="font-bold text-banjar">Fase C</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>3. Putut Joko Wibowo, M.T.</span><span class="font-bold text-banjar">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>4. Dr. Ricardus Anggi P., M.CS.</span><span class="font-bold text-banjar">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>5. Abdul Arif, M.Pd.</span><span class="font-bold text-banjar">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>6. Pratama Bayu Widagdo, S.Sn.</span><span class="font-bold text-banjar">Fase D</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>7. Ahmad Sururi, S. Kom, M.M.</span><span class="font-bold text-banjar">Fase E</span></div>
+                        <div class="flex justify-between p-3 bg-gray-50 rounded hover:bg-orange-50 transition"><span>8. Riski Yudhi Prasongko, M. Kom</span><span class="font-bold text-banjar">Fase E</span></div>
                     </div>
                 </div>
 
@@ -278,26 +277,38 @@
                     <h3 class="text-xl font-bold text-dark mb-4 text-center">RENCANA ANGGARAN (BANJARNEGARA)</h3>
                     <div class="max-w-4xl mx-auto overflow-x-auto p-1 shadow-lg rounded-lg">
                         <div class="flex flex-row min-w-[600px]">
-                            <div class="flex-grow border-2 border-black">
-                                <div class="grid grid-cols-3 text-center text-white font-bold">
-                                    <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
-                                    <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
-                                    <div class="bg-tableBlue p-3">RANGE KAB. BANJAR</div>
+                            <div class="flex-grow border-2 border-black flex flex-col">
+                                <div>
+                                    <div class="grid grid-cols-3 text-center text-white font-bold">
+                                        <div class="bg-tableBlue p-3 border-r border-white">JUMLAH PESERTA</div>
+                                        <div class="bg-tableBlue p-3 border-r border-white">BIAYA</div>
+                                        <div class="bg-tableBlue p-3">RANGE KAB. BANJAR</div>
+                                    </div>
+                                    <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
+                                        <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
+                                        <div class="p-4 border-r border-b border-black text-black font-bold text-xl">Rp5.320.000,00</div>
+                                        <div class="p-4 border-b border-black font-bold text-black">BATAS ATAS</div>
+                                    </div>
+                                    <div class="grid grid-cols-3 text-center items-center bg-white">
+                                        <div class="p-4 border-r border-black font-bold text-lg">35</div>
+                                        <div class="p-4 border-r border-black font-bold text-black text-xl">Rp2.225.000,00</div>
+                                        <div class="p-4 font-bold text-black border-black">BATAS BAWAH</div>
+                                    </div>
                                 </div>
-                                <div class="grid grid-cols-3 text-center items-center bg-gray-100/50">
-                                    <div class="p-4 border-r border-b border-black font-bold text-lg">10</div>
-                                    <div class="p-4 border-r border-b border-black text-red-600 font-bold text-xl">Rp5.320.000,00</div>
-                                    <div class="p-4 border-b border-black font-bold text-red-600">BATAS ATAS</div>
-                                </div>
-                                <div class="grid grid-cols-3 text-center items-center bg-white">
-                                    <div class="p-4 border-r border-black font-bold text-lg">35</div>
-                                    <div class="p-4 border-r border-black font-bold text-red-600 text-xl">Rp2.225.000,00</div>
-                                    <div class="p-4 font-bold text-red-600">BATAS BAWAH</div>
+                                <div class="flex border-t-2 border-black">
+                                    <div class="bg-tableDark text-white w-5/12 p-3 flex flex-col justify-center items-center text-center">
+                                        <span class="font-bold">Secara Administratif</span>
+                                        <span class="text-xs">(Kwitansi dan Sertifikat)</span>
+                                    </div>
+                                    <div class="bg-white text-black w-7/12 p-3 text-xs leading-snug">
+                                        <span class="font-bold block mb-1">Bukti Tanda Bayar</span>
+                                        Menerbitkan Invoice/Kuitansi/Bukti Bayar per Orang Kepada Satuan Pendidikan
+                                    </div>
                                 </div>
                             </div>
                             <div class="w-40 flex flex-col gap-2 ml-2">
-                                <div class="bg-red-600 text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">DRAF<br>RAB. BANJAR</div>
-                                <div class="bg-tableDark text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">SPJ SEKOLAH</div>
+                                <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2 text-sm">DRAF<br>RAB. BANJAR</div>
+                                <div class="bg-tableBlue text-white font-bold text-center flex items-center justify-center p-2 border-2 border-black h-1/2">SPJ SEKOLAH</div>
                             </div>
                         </div>
                     </div>
@@ -305,9 +316,7 @@
 
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
                     <div class="bg-banjar p-6">
-                        <h2 class="text-xl font-bold text-white flex items-center gap-3">
-                            <i class="far fa-clock"></i> JADWAL PELAKSANAAN KKA KAB. BANJARNEGARA
-                        </h2>
+                        <h2 class="text-xl font-bold text-white flex items-center gap-3"><i class="far fa-clock"></i> JADWAL PELAKSANAAN KKA KAB. BANJARNEGARA</h2>
                     </div>
                     <div class="overflow-x-auto">
                         <table class="w-full text-sm text-left border-collapse">
@@ -340,13 +349,9 @@
                         <h2 class="text-2xl font-bold text-gray-800">DOKUMENTASI PER KELAS</h2>
                         <div class="h-px bg-gray-300 flex-1"></div>
                     </div>
-
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
-                            <div class="p-4 border-b bg-orange-50 flex justify-between">
-                                <h3 class="font-bold text-banjar">SD_BJR_1</h3>
-                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span>
-                            </div>
+                            <div class="p-4 border-b bg-orange-50 flex justify-between"><h3 class="font-bold text-banjar">SD_BJR_1</h3><span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 1</span></div>
                             <div class="p-4 grid grid-cols-2 gap-2">
                                 <img src="img/Picture6.png" onclick="openModal('img/Picture6.png', 'SD_BJR_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
                                 <img src="img/Picture7.png" onclick="openModal('img/Picture7.png', 'SD_BJR_1')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
@@ -354,12 +359,8 @@
                                 <div class="w-full h-32 bg-gray-100 rounded flex items-center justify-center text-gray-400 text-xs text-center p-2">Dokumentasi Lainnya</div>
                             </div>
                         </div>
-
                         <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition">
-                            <div class="p-4 border-b bg-orange-50 flex justify-between">
-                                <h3 class="font-bold text-banjar">SD_BJR_3</h3>
-                                <span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span>
-                            </div>
+                            <div class="p-4 border-b bg-orange-50 flex justify-between"><h3 class="font-bold text-banjar">SD_BJR_3</h3><span class="text-xs text-gray-500 bg-white px-2 py-1 rounded">Gelombang 2</span></div>
                             <div class="p-4 grid grid-cols-2 gap-2">
                                 <img src="img/Picture9.jpg" onclick="openModal('img/Picture9.jpg', 'SD_BJR_3')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
                                 <img src="img/Picture2.png" onclick="openModal('img/Picture2.png', 'SD_BJR_3')" class="w-full h-32 object-cover rounded cursor-pointer hover:opacity-90">
